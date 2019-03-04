@@ -1,0 +1,126 @@
+@rem: 1080/16rem;
+@import "./extend/clear.less";
+#wrap {
+    .content {
+      .content-inner{
+        .tap-wrap {
+            width: 1046/@rem;
+            background: #fff;
+            margin: 0 auto;
+            overflow: hidden;
+            .tap-head {
+                height: 135/@rem;
+                line-height: 135/@rem;
+                font-size: 41/@rem;
+               &> h2 {
+                    float: left;
+                }
+               &> span {
+                    float: right;
+                }
+            }
+            .tap-nav {
+                height: 105/@rem;
+                line-height: 105/@rem;
+                position: relative;
+                &>ul {
+                    li {
+                        font-size: 44/@rem;
+                        text-align: center;
+                        color: #6b6b6b;
+                        float: left;
+                        margin-right: 15/@rem;
+                    }
+                }
+                .smallg {
+                    height: 10/@rem;
+                    width: 80/@rem;
+                    background: #690;
+                    position: absolute;
+                    bottom: 0;
+                    transition:  .3s transform, .3s width;
+
+                }
+            }
+            .tap-cantent {
+                width: 300%;
+                &:extend(.clearfix all);
+                ul{
+                    &:extend(.clearfix all);
+                    width: 33.33333%;
+                    float: left;
+                    &>li {
+                        float: left;
+                        width: 506/@rem;
+                        box-sizing: border-box;
+                        margin: 8/@rem;
+                        padding: 5/@rem;
+                        font-size: 40/@rem;
+                        background: #efefef;
+                        color: #000;
+                        .top {
+                            a {
+                                color: #6b6b6b;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                // display: block;
+                                img {
+                                    width: 100%;
+                                }
+                                span {
+                                  
+                                }
+                            }
+                        }
+                        .bottom {
+                            .lookon {
+                                float: left;
+                                margin-right: 30/rem;
+                                font-size: 30/@rem;
+
+                                i {
+                                    display: inline-block;
+                                    background: url("../img/ice.png") no-repeat;
+                                    width: 40/@rem;
+                                    height: 40/@rem;
+                                    vertical-align: middle;
+                                }
+                                span {
+                                    vertical-align: middle;
+                                }
+                            }
+                            .tall {
+                                margin-left: 20/@rem;
+                                float: left;
+                                font-size: 30/@rem;
+                                i {
+                                    display: inline-block;
+                                    background: url('../img/ice.png') no-repeat;
+                                    background-position: 0 -55/@rem ;
+                                    width: 40/@rem;
+                                    height: 40/@rem;
+                                    vertical-align: middle;
+                                }
+                                span {
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+                    }
+                    &.loding{
+                        height: 300/@rem;
+                        background: url("../img/loading.gif") no-repeat;
+                        background-position: center;
+                        opacity: 0;
+                        margin-top: -400/@rem;
+                        // background: skyblue;
+                    }
+                }
+               
+            }
+            
+        }
+      }
+    }
+}

@@ -1,0 +1,42 @@
+@rem: 1080/16rem;
+@import "./mixin/mixin.less";
+#wrap{
+    .content{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        top: 270/@rem;
+        background: #eeeeee;
+        .nav{
+            .onePx(bottom,rgb(235, 252, 1));
+            height: 177/@rem;
+            box-sizing: border-box;
+            background: #eeeeee;
+            padding-top: 31/@rem ;
+            padding-bottom: 14/@rem ;
+            .item{
+                    display: inline-block;
+                    white-space: nowrap;
+                li{
+                   display: inline-block;
+                    height: 120/@rem;
+                   padding-left:38/@rem ;
+                   padding-right:38/@rem ;
+
+                    a{
+                        font-size: 71/@rem;
+                         text-decoration: none;
+                        color: gray;
+                    }
+                    &.active{
+                        background: #690;
+                        a{
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

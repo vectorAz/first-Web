@@ -1,0 +1,113 @@
+.clearfix,
+#wrap .content .content-inner .tap-wrap .tap-cantent,
+#wrap .content .content-inner .tap-wrap .tap-cantent ul {
+  *zoom: 1;
+}
+.clearfix:after,
+#wrap .content .content-inner .tap-wrap .tap-cantent:after,
+#wrap .content .content-inner .tap-wrap .tap-cantent ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#wrap .content .content-inner .tap-wrap {
+  width: 15.4962963rem;
+  background: #fff;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#wrap .content .content-inner .tap-wrap .tap-head {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.60740741rem;
+}
+#wrap .content .content-inner .tap-wrap .tap-head > h2 {
+  float: left;
+}
+#wrap .content .content-inner .tap-wrap .tap-head > span {
+  float: right;
+}
+#wrap .content .content-inner .tap-wrap .tap-nav {
+  height: 1.55555556rem;
+  line-height: 1.55555556rem;
+  position: relative;
+}
+#wrap .content .content-inner .tap-wrap .tap-nav > ul li {
+  font-size: 0.65185185rem;
+  text-align: center;
+  color: #6b6b6b;
+  float: left;
+  margin-right: 0.22222222rem;
+}
+#wrap .content .content-inner .tap-wrap .tap-nav .smallg {
+  height: 0.14814815rem;
+  width: 1.18518519rem;
+  background: #690;
+  position: absolute;
+  bottom: 0;
+  transition: .3s transform, .3s width;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent {
+  width: 300%;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul {
+  width: 33.33333%;
+  float: left;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li {
+  float: left;
+  width: 7.4962963rem;
+  box-sizing: border-box;
+  margin: 0.11851852rem;
+  padding: 0.07407407rem;
+  font-size: 0.59259259rem;
+  background: #efefef;
+  color: #000;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li .top a {
+  color: #6b6b6b;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li .top a img {
+  width: 100%;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li .bottom .lookon {
+  float: left;
+  margin-right: 30 / rem;
+  font-size: 0.44444444rem;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li .bottom .lookon i {
+  display: inline-block;
+  background: url("../img/ice.png") no-repeat;
+  width: 0.59259259rem;
+  height: 0.59259259rem;
+  vertical-align: middle;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li .bottom .lookon span {
+  vertical-align: middle;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li .bottom .tall {
+  margin-left: 0.2962963rem;
+  float: left;
+  font-size: 0.44444444rem;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li .bottom .tall i {
+  display: inline-block;
+  background: url('../img/ice.png') no-repeat;
+  background-position: 0 -0.81481481rem;
+  width: 0.59259259rem;
+  height: 0.59259259rem;
+  vertical-align: middle;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul > li .bottom .tall span {
+  vertical-align: middle;
+}
+#wrap .content .content-inner .tap-wrap .tap-cantent ul.loding {
+  height: 4.44444444rem;
+  background: url("../img/loading.gif") no-repeat;
+  background-position: center;
+  opacity: 0;
+  margin-top: -5.92592593rem;
+}

@@ -1,0 +1,36 @@
+@rem: 1080/16rem;
+@import "./reset.less";
+@import "./silde.less";
+
+@import "./head.less";
+@import "./content.less";
+@import "./tap.less";
+
+html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        #wrap {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-size: 0;
+            background: #eee;
+            .bar{
+                width: 5px;
+                height: 40px;
+                position: absolute;
+                right: 0;
+                top: 0;
+                background: skyblue;
+                z-index: 999;
+                opacity: 0;
+                transition: .3s opacity;
+            }
+        }
+    }
+}
